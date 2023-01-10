@@ -1,3 +1,5 @@
+#Programa para saber quais materiais preciso levar para a sala de aula
+
 def funcao():
     if lesson in cards and lesson in documentos:
         print('\nPrecisa de cards e documento impresso')
