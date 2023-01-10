@@ -1,3 +1,5 @@
+#Programa para facilitar correção das provas dos alunos
+
 print('-'*80)
 
 book = int(input("Qual o livro do aluno? "))
