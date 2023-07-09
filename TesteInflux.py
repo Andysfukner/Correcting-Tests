@@ -6,11 +6,11 @@ book = int(input("Qual o livro do aluno? "))
 lista1 = [1,2]
 lista2 = [3, 4, 5]
 
-descontoReading = 0
-descontoListening = 0.1
+descontoReading = 0  #iniciando as variáveis para descontar a cada erro do aluno
+descontoListening = 0.1 
 
 if book in lista1:
-  descontoReading = 0.15
+  descontoReading = 0.15  #nos livros 1 e 2 o desconto é maior por ter menos questões
 else:
   descontoReading = 0.12
 
